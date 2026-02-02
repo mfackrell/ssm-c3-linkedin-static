@@ -20,22 +20,30 @@ export async function generateLinkedinImage(caption) {
     const prompt = `
 Create a professional, high-end LinkedIn graphic (1080x1350).
 YOUR TASK:
-Create a sophisticated, minimalist typographic poster using the INPUT HEADLINE as the central visual element.
-
-DESIGN ETHOS: "Premium Utility."
-The image should look like a cover for a high-value whitepaper, a digital product, or a sophisticated software tool.
+The image should feel like the cover of a private equity playbook, an institutional operating framework, or a board-level execution system.
 
 VISUAL CONSTRAINTS:
-- Typography: Use a clean, modern, bold sans-serif font. The headline must be the hero.
-- Background: Use professional, corporate-friendly textures. Think subtle geometric grids, deep matte gradients (navy, charcoal, slate), or abstract data visualizations.
-- Color Palette: Trustworthy and expensive. Deep blues, cool greys, forest greens. No neon or jarring colors.
-- Composition: Balanced and structured. It should feel like a "System" or a "Framework."
+
+Typography: Clean, modern, confident sans-serif. Strong hierarchy. The headline is the hero.
+
+Background: Subtle, structured, and executive-grade. Think refined grids, architectural lines, muted data patterns, or deep matte gradients (navy, charcoal, graphite).
+
+Color Palette: Restrained and authoritative. Deep blues, slate, charcoal, soft steel, restrained accent tones.
+
+Composition: Precise and intentional. It should feel engineered, not decorative. Calm, controlled, credible.
 
 NEGATIVE CONSTRAINTS:
-- NO stock photos of shaking hands, office meetings, or generic "business people."
-- NO messy or grunge textures.
-- NO "hustle culture" vibes.
 
+NO stock photography (no people, no offices, no handshakes).
+
+NO playful, trendy, or startup aesthetics.
+
+NO grunge, noise, or visual clutter.
+
+NO motivational or “hustle culture” energy.
+
+OVERALL FEEL:
+This should look like it belongs in a boardroom, a data room, or a PE operating memo—quiet confidence, serious execution, zero theatrics.
 TEXT TO RENDER: "${headline}"
 `;
 
